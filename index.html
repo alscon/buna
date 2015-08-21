@@ -8,7 +8,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+
+    <!-- style plagin and main style -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,14 +33,14 @@
                 </div><!-- end logo -->
 
                 <div class="col-lg-9"><!-- start menu -->
-                    <nav>
+                    <nav class="main-nav">
                         <ul>
-                            <li><a href="#">Скачать каталог</a></li>
-                            <li><a href="#">Доставка</a></li>
-                            <li><a href="#">Оплата</a></li>
-                            <li><a href="#">Возврат</a></li>
-                            <li><a href="#">Контакты</a></li>
-                            <li><a href="#">Помощь</a></li>
+                            <li class="active"><a href="#" class="ico-savefile">Скачать каталог</a></li>
+                            <li><a href="#" class="ico-delivery">Доставка</a></li>
+                            <li><a href="#" class="ico-wallet">Оплата</a></li>
+                            <li><a href="#" class="ico-refresh">Возврат</a></li>
+                            <li><a href="#" class="ico-email">Контакты</a></li>
+                            <li><a href="#" class="ico-question">Помощь</a></li>
                         </ul>
                     </nav>
 
@@ -43,13 +48,13 @@
 
                     <div class="widget-head-block"> <!-- start block Call -->
                         <p class="phone">8 (800) 775-93-60</p>
-                        <span>Звонок по России бесплатный</span>
+                        <span class="descript">Звонок по России бесплатный</span>
                         <a href="#" class="fit-back">Обратная связь</a>
                     </div><!-- end block Call -->
 
                     <div class="widget-head-block"><!-- start block phone -->
                          <p class="phone">+7 (499) 685-17-79</p>
-                         <span>Москва (10.00-18.00, пн-пт)</span>
+                         <span class="descript">Москва (10.00-18.00, пн-пт)</span>
                          <a href="#" class="maps-link">Схема проезда</a>
                     </div><!-- end block phone -->
 
@@ -65,9 +70,84 @@
         </div>
     </section> <!-- end wrap header -->
 
+    <section class="drop-mnu wrapper"><!-- start content -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1-5">
+					<div class="drop-link drop-link-1">
+						<a href="#">Доставка <br>
+						    <span>по Москве <br> и России</span>
+						  </a>
+					</div>
+				</div>
+				<div class="col-lg-1-5">
+					<div class="drop-link drop-link-2">
+					    <a href="#">Магазин <br>
+					        <span>в Москве</span>
+					    </a>
+				    </div>
+				</div>
+				<div class="col-lg-1-5">
+					<div class="drop-link drop-link-3">
+					    <a href="#">Доставим <br>
+					        <span>два размера <br>  на выбор</span>
+					    </a>
+				    </div>
+				</div>
+				<div class="col-lg-1-5">
+					<div class="drop-link drop-link-4">
+					    <a href="#">Спецпредложения <br> для студентов </a>
+				    </div>
+				</div>
+				<div class="col-lg-1-5">
+					<form>
+						<p class="input-search">
+						    <input type="search" name="" id="" placeholder="Поиск">
+				        </p>
+						<input type="submit" value="% Скидки">
+					</form>
+				</div>
+			</div>
+			<div class="row">
+			    <div class="col-lg-10">
+                    <div id="baner-slider" class="owl-carousel owl-theme">
+
+                        <div class="item">
+                            <img src="img/specialization.jpg" >
+                        </div>
+                        <div class="item">
+                            <img src="img/who-we.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/specialization.jpg" >
+                        </div>
+                        <div class="item">
+                            <img src="img/who-we.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="img/specialization.jpg" >
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <button id="item-1">Пошив под заказ</button>
+                    <button id="item-2">Оптовым клиентам</button>
+                    <button id="item-3">У нас в продаже большие размеры</button>
+                    <button id="item-4">Название акции</button>
+                    <button id="item-5">Название акции</button>
+                </div>
+			</div>
+		</div>
+	</section> <!-- end content -->
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/control.js"></script>
   </body>
 </html>
