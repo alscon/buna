@@ -829,6 +829,7 @@ a:hover
     margin-bottom: 3px;
     border-bottom: 1px solid #D6D6D6;
     padding: 25.9px 0;
+    outline:none;
 
 }
 .slide-bt button:first-child
@@ -910,6 +911,35 @@ a:hover
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8131e', endColorstr='#d71d35',GradientType=0 ); /* IE6-8 */
     text-decoration: none;
     color: #fff;
+}
+.catalog-block
+{
+    margin-top: 30px;
+}
+.menu-item-1, .menu-item-2, .menu-item-3, .menu-item-4
+{
+    list-style: none;
+    display: inline-block;
+}
+.b-right
+{
+	-webkit-border-radius: 40px 0;
+	-moz-border-radius: 40px 0;
+	border-radius: 40px 0;
+	background-color: #fff;
+    overflow: hidden
+}
+.b-left
+{
+    -webkit-border-radius: 0 40px;
+	-moz-border-radius: 0 40px;
+	border-radius: 0 40px;
+	background-color: #fff;
+}
+.proposal-item img
+{
+    width: 100%;
+    overflow: hidden;
 }
  /* ======================= medias ====================== */
 
