@@ -604,7 +604,144 @@ a:hover
     background: url(../img/youT.png) 0 -31px no-repeat;
 }
 
+/*=====================content=================*/
 
+.menu-left-wrap
+{
+    padding-left: 12px;
+    margin-top: 25px;
+}
+.menu
+{
+    -webkit-border-radius: 0 40px;
+	-moz-border-radius: 0 40px;
+	border-radius: 0 40px;
+	background-color: #fff;
+    border: 1px solid #D8D8D8;
+}
+.burder
+{
+    padding: 25px 13px;
+    display: block;
+    font-size: 15px;
+	color: #333;
+    font-family: 'ProximaNova-Bold';
+    text-align: right;
+    padding-right: 20px;
+    border-bottom: 1px solid #D8D8D8;
+
+}
+.burder:hover
+{
+    color: #d71e36;
+    text-decoration: none;
+}
+.burder:before
+{
+    width: 20px;
+    position: absolute;
+    content: '';
+    background: url(../img/burger.png) 0 1px no-repeat;
+    height: 15px;
+    margin-left: -35px;
+    margin-top: 2px;
+}
+.burder:hover:before
+{
+    background: url(../img/burger.png) 0 -15px no-repeat;
+}
+.menu-left
+{
+    list-style: none;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+.menu-left li, .menu-left li a
+{
+    font-size: 14px;
+	color: #212121;
+}
+.menu-left li:hover
+{
+    background: #f7f7f7;
+}
+.menu-left li
+{
+    padding-left: 13px;
+    position: relative;
+}
+.menu-left li:after
+{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 14px;
+    background: url(../img/list.png) 0 0 no-repeat;
+    right: 10px;
+    margin-top: 9px;
+}
+.menu-left li:hover:after
+{
+    background: url(../img/list.png) 0 -14px no-repeat;
+}
+.menu-left li a
+{
+    line-height: 30px;
+}
+.menu-left li a:hover
+{
+    color: #d71e36;
+    text-decoration: none;
+}
+.menu-left li:hover > .second-menu
+{
+    display:block;
+}
+.second-menu
+{
+    position: absolute;
+    min-width: 200px;
+    -webkit-border-radius: 0 40px 0 0;
+	-moz-border-radius: 0 40px 0 0;
+	border-radius: 0 40px 0 0;
+	background-color: #f7f7f7;
+	-webkit-box-shadow: 2px 2px 4px rgba(0,1,1,.11);
+	-moz-box-shadow: 2px 2px 4px rgba(0,1,1,.11);
+	box-shadow: 2px 2px 4px rgba(0,1,1,.11);
+    z-index: 100;
+    left: 210px;
+    top: -21px;
+    border: 1px solid #D8D8D8;
+    min-height: 260px;
+    padding-top: 20px;
+    list-style: none;
+    overflow: hidden;
+    display: none;
+}
+.second-menu li:after
+{
+    width: 0;
+    height: 0;
+    position: relative
+}
+.second-menu li:before
+{
+    width: 12px;
+    height: 11px;
+    position: absolute;
+    content: '';
+    background: url(../img/list.png) 0 -26px no-repeat;
+    left: -20px;
+    margin-top: 7px;
+}
+.second-menu li:hover:before
+{
+    background: url(../img/list.png) 0 -37px no-repeat;
+    height: 16px;
+    width: 15px;
+}
  /* ======================= medias ====================== */
 
 @media (min-width: 768px) {
